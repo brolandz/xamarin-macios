@@ -1,0 +1,20 @@
+# Runs the device tets on iOS stable devices.
+resources:
+  repositories:
+  - repository: maccore
+    type: github
+    name: xamarin/maccore
+    ref: refs/heads/device-tests-yaml # should this be on a branch and not on master???
+    endpoint: xamarin
+
+variables:
+  - template: templates/variables.yml
+
+stages:
+- template: templates/device-tests-stage.yml
+  parameters:
+    testsLabels: '--label=run-ios-64-tests,run-non-monotouch-tests,run-monotouch-tests,run-mscorlib-tests'
+    statusContext: 'VSTS: device tests iOS'
+    iOSDevicePool: 'VSEng-Xamarin-QA'
+    iOSDeviceDemand: 'xismoke'
+    WindowsDevicePool: 'VSEng-Xamarin-Win-XMA'

@@ -1,0 +1,5 @@
+12:14:59.8891970 Created server on localhost:51234
+12:14:59.9452280 launchctl remove com.apple.CoreSimulator.CoreSimulatorService
+12:14:59.9456400 12:14:59.9452320 make all -j24 -C /Users/mandel/Xamarin/master/xamarin-macios/tests/test-libraries
+12:14:59.9644380 killall -9 "iPhone Simulator" "iOS Simulator" Simulator "Simulator (Watch)" com.apple.CoreSimulator.CoreSimulatorService ibtoold
+12:14:59.9809050 No matching processes belonging to you were found

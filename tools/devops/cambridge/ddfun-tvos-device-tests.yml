@@ -1,0 +1,27 @@
+# Runs the device tests on tvOS stable devices.
+resources:
+  repositories:
+  - repository: maccore
+    type: github
+    name: xamarin/maccore
+    ref: refs/heads/device-tests-yaml # should this be on a branch and not on master???
+    endpoint: xamarin
+
+variables:
+  - group: xamops-azdev-secrets
+  - template: templates/variables.yml
+
+stages:
+- stage: device_tests
+  jobs:
+  - job: tests
+    displayName: 'Run tvOS Device Tests'
+    timeoutInMinutes: 1000
+    pool:
+      name: 'VSEng-Xamarin-QA'
+      demands: 'xitvos' 
+    steps:
+    - template: templates/device-tests.yml
+      parameters:
+        testsLabels: '--label=run-tvos-tests,run-non-monotouch-tests,run-monotouch-tests,run-mscorlib-tests'
+        statusContext: 'VSTS: device tests tvOS'

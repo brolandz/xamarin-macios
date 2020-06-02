@@ -1,0 +1,42 @@
+12:14:59.9985930 /Users/mandel/Xamarin/master/xamarin-macios/_ios-build/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/bin/mlaunch --listdev=/var/folders/nm/w3g5ldq14bd0jgh9lkv86t_h0000gn/T/tmp4e9fe0a0.tmp --output-format=XML
+12:15:00.0024130 Launching /Users/mandel/Xamarin/master/xamarin-macios/_ios-build/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/bin/mlaunch --listdev=/var/folders/nm/w3g5ldq14bd0jgh9lkv86t_h0000gn/T/tmp4e9fe0a0.tmp --output-format=XML
+12:15:23.6355810 Result:
+12:15:23.6370490 <?xml version="1.0" encoding="utf-8"?>
+<MTouch Version="0" Revision="0">
+  <SdkRoot>/Applications/Xcode_11.5.0.app/Contents/Developer</SdkRoot>
+  <Device>
+    <ActivationState>Activated</ActivationState>
+    <AmountDataAvailable>2832855040</AmountDataAvailable>
+    <BatteryCurrentCapacity>58</BatteryCurrentCapacity>
+    <BluetoothAddress>b0:19:c6:94:f2:26</BluetoothAddress>
+    <BuildVersion>17E262</BuildVersion>
+    <ChipID>32789</ChipID>
+    <CPUArchitecture>arm64</CPUArchitecture>
+    <DeveloperStatus>Development</DeveloperStatus>
+    <DeviceClass>iPhone</DeviceClass>
+    <DeviceColor>1</DeviceColor>
+    <DeviceEnclosureColor>1</DeviceEnclosureColor>
+    <DeviceIdentifier>bd3fd054136767445ff47819f65b74867a48e591</DeviceIdentifier>
+    <DevToolsAvailable>Standard</DevToolsAvailable>
+    <EnableWifiDebugging />
+    <HardwareModel>D211AP</HardwareModel>
+    <InterfaceType>Wifi</InterfaceType>
+    <InternationalMobileEquipmentIdentity>359401080217877</InternationalMobileEquipmentIdentity>
+    <IsPaired>True</IsPaired>
+    <IsUsableForDebugging>False</IsUsableForDebugging>
+    <IsValid>True</IsValid>
+    <ModelNumber>MQ8L2</ModelNumber>
+    <Name>iPhone</Name>
+    <PasswordProtected>True</PasswordProtected>
+    <ProductionSOC>1</ProductionSOC>
+    <ProductType>iPhone10,5</ProductType>
+    <ProductVersion>13.4.1</ProductVersion>
+    <SerialNumber>C39V7FLJJCM2</SerialNumber>
+    <TotalDataCapacity>58335211520</TotalDataCapacity>
+    <UDID>bd3fd054136767445ff47819f65b74867a48e591</UDID>
+    <UniqueChipID>1434502442682426</UniqueChipID>
+    <WatchCompanionCapability>True</WatchCompanionCapability>
+    <WiFiAddress>b0:19:c6:94:f2:25</WiFiAddress>
+  </Device>
+</MTouch>
+12:15:23.6388040 Skipping device iPhone (bd3fd054136767445ff47819f65b74867a48e591) because it's not usable for debugging.

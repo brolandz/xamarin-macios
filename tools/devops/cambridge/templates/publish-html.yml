@@ -1,0 +1,19 @@
+# Job that will download the other artifact from the tests job and will publish them in the 
+# vsdrops
+
+steps:
+
+- checkout: self
+  persistCredentials: true
+
+- task: DownloadPipelineArtifact@2
+  displayName: Download html report 
+  inputs:
+    patterns: '**/HtmlReport.zip'
+    allowFailedBuilds: true
+    path: $(Pipeline.Workspace)
+
+- task: unzip@0
+  inputs:
+    pathToZipFile: $(Pipeline.Workspace)/HtmlReport.zip
+    pathToZipFolder: 'HtmlReport'

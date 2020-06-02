@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="apitest" total="252" errors="0" failures="0" not-run="1" inconclusive="0" ignored="1" skipped="0" invalid="0" date="2020-06-05" time="12:15:37">
+  <environment macunit-version="0.9.0.0" clr-version="4.0.50524.0" os-version="Unix 19.5.0.0" platform="Unix" cwd="/Users/mandel/Xamarin/master/xamarin-macios/tests/xharness/tmp-test-dir/apitest/bin/x86/Debug/apitest.app/Contents/MonoBundle" machine-name="9794140-081319" user="mandel" user-domain="9794140-081319" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="apitest" executed="False" result="Ignored">
+    <properties>
+      <property name="_PID" value="99216" />
+      <property name="_APPDOMAIN" value="apitest.exe" />
+    </properties>
+    <reason>
+      <message><![CDATA[One or more child tests were ignored]]></message>
+    </reason>
+    <results>
+      <test-suite type="TestFixture" name="apitest.KernelNotificationTest" executed="True" result="Success" success="True" time="4.174" asserts="20">
+        <results>
+          <test-case name="apitest.KernelNotificationTest.KEvent" executed="True" result="Success" success="True" time="4.157" asserts="8" />
+          <test-case name="apitest.KernelNotificationTest.KEventExceptions" executed="True" result="Success" success="True" time="0.01" asserts="12" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="apitest.NSFormatterTests" executed="True" result="Success" success="True" time="0.059" asserts="4">
+        <results>
+          <test-case name="apitest.NSFormatterTests.NSFormatter_IsPartialStringValid" executed="True" result="Success" success="True" time="0.024" asserts="1" />
+          <test-case name="apitest.NSFormatterTests.NSFormatter_ShouldGetAttributedString" executed="True" result="Success" success="True" time="0.033" asserts="1" />
+          <test-case name="apitest.NSFormatterTests.NSFormatter_ShouldGetEditingString" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="apitest.NSFormatterTests.NSFormatter_ShouldGetString" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="apitest.NSStepperCellTests" executed="True" result="Success" success="True" time="0.018" asserts="5">
+        <results>
+          <test-case name="apitest.NSStepperCellTests.NSStepperCell_ShouldSetAutoRepeat" executed="True" result="Success" success="True" time="0.014" asserts="1" />
+          <test-case name="apitest.NSStepperCellTests.NSStepperCell_ShouldSetIncrement" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="apitest.NSStepperCellTests.NSStepperCell_ShouldSetMaxValue" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="apitest.NSStepperCellTests.NSStepperCell_ShouldSetMinValue" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="apitest.NSStepperCellTests.NSStepperCell_ShouldSetValueWraps" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="apitest.NSTextInputClient" executed="True" result="Success" success="True" time="0.103" asserts="27">
+        <results>
+          <test-case name="apitest.NSTextInputClient.NSTextInputClient_ShouldGetAttributedString" executed="True" result="Success" success="True" time="0.076" asserts="2" />
+          <test-case name="apitest.NSTextInputClient.NSTextInputClient_ShouldGetAttributedSubstring" executed="True" result="Success" success="True" time="0.003" asserts="3" />
+          <test-case name="apitest.NSTextInputClient.NSTextInputClient_ShouldGetBaselineDelta" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+          <test-case name="apitest.NSTextInputClient.NSTextInputClient_ShouldGetDrawsVertically" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+          <test-case name="apitest.NSTextInputClient.NSTextInputClient_ShouldGetFirstRect" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+          <test-case name="apitest.NSTextInputClient.NSTextInputClient_ShouldGetFractionofDistanceThroughGlyph" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+          <test-case name="apitest.NSTextInputClient.NSTextInputClient_ShouldGetValidAttributesForMarkedText" executed="True" result="Success" success="True" time="0.005" asserts="2" />
+          <test-case name="apitest.NSTextInputClient.NSTextInputClient_ShouldGetWindowLevel" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+          <test-case name="apitest.NSTextInputClient.NSTextInputClient_ShouldInsertText" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+          <test-case name="apitest.NSTextInputClient.NSTextInputClient_ShouldMarkText" executed="True" result="Success" success="True" time="0.004" asserts="3" />
+          <test-case name="apitest.NSTextInputClient.NSTextInputClient_ShouldUnmarkText" executed="True" result="Success" success="True" time="0.003" asserts="4" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="apitest.SearchKitTests" executed="True" result="Success" success="True" time="0.165" asserts="19">
+        <results>
+          <test-case name="apitest.SearchKitTests.TestCreate" executed="True" result="Success" success="True" time="0.139" asserts="2" />
+          <test-case name="apitest.SearchKitTests.TestInMemory" executed="True" result="Success" success="True" time="0.008" asserts="2" />
+          <test-case name="apitest.SearchKitTests.TestSummary" executed="True" result="Success" success="True" time="0.008" asserts="14" />
+          <test-case name="apitest.SearchKitTests.TestTextAnalysis" executed="True" result="Success" success="True" time="0.009" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="MonoMacFixtures.AppKit.CellTest" executed="True" result="Success" success="True" time="0.01" asserts="10">
+        <results>
+          <test-case name="MonoMacFixtures.AppKit.CellTest.CopyDerivedTest" executed="True" result="Success" success="True" time="0.007" asserts="5" />
+          <test-case name="MonoMacFixtures.AppKit.CellTest.CopyTest" executed="True" result="Success" success="True" time="0.002" asserts="5" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="MonoMacFixtures.AssemblyTest" executed="True" result="Success" success="True" time="0.002" asserts="1">
+        <results>
+          <test-case name="MonoMacFixtures.AssemblyTest.PublicKeyToken" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="MonoMacFixtures.CoreBluetooth.CBUUIDTest" executed="True" result="Success" success="True" time="0.014" asserts="19">
+        <results>
+          <test-case name="MonoMacFixtures.CoreBluetooth.CBUUIDTest.FullRandomEquals" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+          <test-case name="MonoMacFixtures.CoreBluetooth.CBUUIDTest.FullRandomNotEqual" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="MonoMacFixtures.CoreBluetooth.CBUUIDTest.Null" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+          <test-case name="MonoMacFixtures.CoreBluetooth.CBUUIDTest.PartialEquals" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+          <test-case name="MonoMacFixtures.CoreBluetooth.CBUUIDTest.PartialEqualsFull" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+          <test-case name="MonoMacFixtures.CoreBluetooth.CBUUIDTest.PartialsOfDifferentSizeNotEqual" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="MonoMacFixtures.CoreBluetooth.CBUUIDTest.Roundtrip_128bits" executed="True" result="Success" success="True" time="0.004" asserts="4" />
+          <test-case name="MonoMacFixtures.CoreBluetooth.CBUUIDTest.Roundtrip_16bits" executed="True" result="Success" success="True" time="0.001" asserts="5" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="MonoMacFixtures.ObjCRuntime.ClassTest" executed="True" result="Success" success="True" time="0.001" asserts="0">
+        <results>
+          <test-case name="MonoMacFixtures.ObjCRuntime.ClassTest.ThrowOnMissingNativeClassTest" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="MonoTouchFixtures.CoreFoundation.CFNotificationCenterTest" executed="True" result="Success" success="True" time="0.012" asserts="21">
+        <results>
+          <test-case name="MonoTouchFixtures.CoreFoundation.CFNotificationCenterTest.TestNullNameAndObserver" executed="True" result="Success" success="True" time="0.007" asserts="1" />
+          <test-case name="MonoTouchFixtures.CoreFoundation.CFNotificationCenterTest.TestObservers" executed="True" result="Success" success="True" time="0.004" asserts="10" />
+          <test-case name="MonoTouchFixtures.CoreFoundation.CFNotificationCenterTest.TestObservers2" executed="True" result="Success" success="True" time="0.001" asserts="10" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionKeysTest" executed="True" result="Success" success="True" time="0.002" asserts="4">
+        <results>
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionKeysTest.TestAppleEventCodeKey" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionKeysTest.TestOptionalKey" executed="True" result="Success" success="True" time="0" asserts="1" />
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionKeysTest.TestTypeKey" executed="True" result="Success" success="True" time="0" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionTest" executed="True" result="Success" success="True" time="0.01" asserts="12">
+        <results>
+          <test-suite type="ParameterizedMethod" name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionTest.TestConstructorEventCodeNullOrEmpty" executed="True" result="Success" success="True" time="0.004" asserts="0">
+            <results>
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionTest.TestConstructorEventCodeNullOrEmpty(&quot;&quot;)" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionTest.TestConstructorEventCodeNullOrEmpty(null)" executed="True" result="Success" success="True" time="0" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionTest.TestConstructorEventCodeWrongLength" executed="True" result="Success" success="True" time="0.001" asserts="0">
+            <results>
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionTest.TestConstructorEventCodeWrongLength(&quot;srf&quot;)" executed="True" result="Success" success="True" time="0" asserts="0" />
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionTest.TestConstructorEventCodeWrongLength(&quot;TooLong&quot;)" executed="True" result="Success" success="True" time="0" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionTest.TestConstructorNameNullOrEmpty" executed="True" result="Success" success="True" time="0.001" asserts="0">
+            <results>
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionTest.TestConstructorNameNullOrEmpty(&quot;&quot;)" executed="True" result="Success" success="True" time="0" asserts="0" />
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionTest.TestConstructorNameNullOrEmpty(null)" executed="True" result="Success" success="True" time="0" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionTest.TestConstructorTypeNullOrEmpty" executed="True" result="Success" success="True" time="0.001" asserts="0">
+            <results>
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionTest.TestConstructorTypeNullOrEmpty(&quot;&quot;)" executed="True" result="Success" success="True" time="0" asserts="0" />
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionTest.TestConstructorTypeNullOrEmpty(null)" executed="True" result="Success" success="True" time="0" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionTest.TestDescription" executed="True" result="Success" success="True" time="0.003" asserts="12">
+            <results>
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionTest.TestDescription(&quot;name&quot;,&quot;cdfd&quot;,&quot;NSString&quot;,True)" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionTest.TestDescription(&quot;name&quot;,&quot;cdfd&quot;,&quot;NSNumber&quot;,False)" executed="True" result="Success" success="True" time="0" asserts="3" />
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionTest.TestDescription(&quot;name&quot;,&quot;****&quot;,&quot;NSNumber&quot;,True)" executed="True" result="Success" success="True" time="0" asserts="3" />
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandArgumentDescriptionTest.TestDescription(&quot;otherName&quot;,&quot;****&quot;,&quot;NSNumber&quot;,False)" executed="True" result="Success" success="True" time="0" asserts="3" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionDictionaryTest" executed="True" result="Success" success="True" time="0.005" asserts="14">
+        <results>
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionDictionaryTest.RemoveArgument" executed="True" result="Success" success="True" time="0.002" asserts="6" />
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionDictionaryTest.TestAddArgument" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionDictionaryTest.TestAddNullArgument" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionDictionaryTest.TestRemoveMissingArgument" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionDictionaryTest.TestRemoveNoArguments" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest" executed="True" result="Success" success="True" time="0.043" asserts="16">
+        <results>
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestAppleEventClassCode" executed="True" result="Success" success="True" time="0.007" asserts="1" />
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestAppleEventCode" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestArgumentsNames" executed="True" result="Success" success="True" time="0.002" asserts="4" />
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestClassName" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-suite type="ParameterizedMethod" name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateCmdClassNullOrEmpty" executed="True" result="Success" success="True" time="0.003" asserts="0">
+            <results>
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateCmdClassNullOrEmpty(&quot;&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateCmdClassNullOrEmpty(null)" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateCommandNameNullOrEmpty" executed="True" result="Success" success="True" time="0.002" asserts="0">
+            <results>
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateCommandNameNullOrEmpty(&quot;&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateCommandNameNullOrEmpty(null)" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateEventCodeNullOrEmpty" executed="True" result="Success" success="True" time="0.002" asserts="0">
+            <results>
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateEventCodeNullOrEmpty(&quot;&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateEventCodeNullOrEmpty(null)" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateEventCodeWrongLength" executed="True" result="Success" success="True" time="0.002" asserts="0">
+            <results>
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateEventCodeWrongLength(&quot;TooLong&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateEventCodeWrongLength(&quot;srt&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateResultAppleEventWrongLength" executed="True" result="Success" success="True" time="0.003" asserts="0">
+            <results>
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateResultAppleEventWrongLength(&quot;TooLong&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateResultAppleEventWrongLength(&quot;srt&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateSuiteNameNullOrEmpty" executed="True" result="Success" success="True" time="0.002" asserts="0">
+            <results>
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateSuiteNameNullOrEmpty(&quot;&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateSuiteNameNullOrEmpty(null)" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+            </results>
+          </test-suite>
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateWithDictNullDict" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+          <test-suite type="ParameterizedMethod" name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateWithDictNullOrEmptyCommandName" executed="True" result="Success" success="True" time="0.002" asserts="0">
+            <results>
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateWithDictNullOrEmptyCommandName(&quot;&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateWithDictNullOrEmptyCommandName(null)" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateWithDictNullOrEmptySuitName" executed="True" result="Success" success="True" time="0.002" asserts="0">
+            <results>
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateWithDictNullOrEmptySuitName(&quot;&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+              <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateWithDictNullOrEmptySuitName(null)" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+            </results>
+          </test-suite>
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestCreateWithDictWrongArgDescription" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestGetAppleEventCodeForArgument" executed="True" result="Success" success="True" time="0.003" asserts="3" />
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestIsOptionalArgument" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestName" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestReturnType" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="MonoTouchFixtures.Foundation.NSScriptCommandDescriptionTest.TestSuiteName" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.AppleScriptTests" executed="True" result="Success" success="True" time="0.097" asserts="4">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.AppleScriptTests.AppleScript_BasicTest" executed="True" result="Success" success="True" time="0.097" asserts="4" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.AudioUnitTests" executed="True" result="Success" success="True" time="0.03" asserts="27">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.AudioUnitTests.AudioObjectPropertyScope4CCTest" executed="True" result="Success" success="True" time="0.001" asserts="4" />
+          <test-case name="Xamarin.Mac.Tests.AudioUnitTests.AudioObjectPropertySelector4CCTest" executed="True" result="Success" success="True" time="0.001" asserts="22" />
+          <test-case name="Xamarin.Mac.Tests.AudioUnitTests.GetCurrentDevice_Test" executed="True" result="Success" success="True" time="0.029" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.AUGraphTests" executed="True" result="Success" success="True" time="0.063" asserts="3">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.AUGraphTests.DoTest" executed="True" result="Success" success="True" time="0.062" asserts="3" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.AVAudioIONodeTests" executed="True" result="Success" success="True" time="0.038" asserts="0">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.AVAudioIONodeTests.AVAudioIONodeTests_AudioUnitTest" executed="True" result="Success" success="True" time="0.038" asserts="0" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.AVPlayerLayerTests" executed="True" result="Success" success="True" time="0.011" asserts="1">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.AVPlayerLayerTests.AVPlayerLayer_VideoGravity" executed="True" result="Success" success="True" time="0.011" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.CABasicAnimationTests" executed="True" result="Success" success="True" time="0.012" asserts="6">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.CABasicAnimationTests.CABasicAnimation_FromToBy_INativeTests" executed="True" result="Success" success="True" time="0.012" asserts="6" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.CAKeyFrameAnimationTests" executed="True" result="Success" success="True" time="0.01" asserts="4">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.CAKeyFrameAnimationTests.CAKeyFrameAnimation_ValuesTests" executed="True" result="Success" success="True" time="0.009" asserts="4" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.CALayerTests" executed="True" result="Success" success="True" time="0.007" asserts="2">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.CALayerTests.CALayer_ValuesTests" executed="True" result="Success" success="True" time="0.007" asserts="2" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.CAOpenGLLayerTest" executed="True" result="Success" success="True" time="0.025" asserts="0">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.CAOpenGLLayerTest.SubclassedTest" executed="True" result="Success" success="True" time="0.025" asserts="0" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.CIFilterTests" executed="True" result="Success" success="True" time="0.029" asserts="1">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.CIFilterTests.CIFilterOutputImageTest" executed="True" result="Success" success="True" time="0.028" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.DelegateAndDataSourceTest" executed="True" result="Success" success="True" time="2.449" asserts="0">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.DelegateAndDataSourceTest.DelegateAndDataSourceAllowsNull" executed="True" result="Success" success="True" time="1.449" asserts="0" />
+          <test-case name="Xamarin.Mac.Tests.DelegateAndDataSourceTest.DelegateAndDataSourceHaveArgumentSemanticAttribute" executed="True" result="Success" success="True" time="0.754" asserts="0" />
+          <test-case name="Xamarin.Mac.Tests.DelegateAndDataSourceTest.TargetArgumentSemanticAttribute" executed="True" result="Success" success="True" time="0.246" asserts="0" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.DerivedEventTest" executed="True" result="Success" success="True" time="0.033" asserts="12">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.DerivedEventTest.DerivedEvents_DontStompEachOther" executed="True" result="Success" success="True" time="0.018" asserts="12" />
+          <test-case name="Xamarin.Mac.Tests.DerivedEventTest.DerivedEvents_OverwriteThrows" executed="True" result="Success" success="True" time="0.015" asserts="0" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.EveryFrameworkSmokeTests" executed="True" result="Success" success="True" time="0.013" asserts="0">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.EveryFrameworkSmokeTests.ExpectedLibrariesAreLoaded" executed="True" result="Success" success="True" time="0.013" asserts="0" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSAppearanceTests" executed="True" result="Success" success="True" time="0.02" asserts="3">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSAppearanceTests.NSAppearanceCustomizationNull" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+          <test-case name="Xamarin.Mac.Tests.NSAppearanceTests.NSAppearanceShouldChangeCurrentAppearance" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSAppearanceTests.NSAppearanceShouldLoadAppearanceNamed" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSApplicationTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSApplicationTests.NSApplication_SendActionNullTest" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSAttributedStringTests" executed="True" result="Success" success="True" time="0.01" asserts="6">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSAttributedStringTests.NSAttributedString_BoundingRectWithSize" executed="True" result="Success" success="True" time="0.007" asserts="2" />
+          <test-case name="Xamarin.Mac.Tests.NSAttributedStringTests.NSAttributedString_GetUrl" executed="True" result="Success" success="True" time="0.003" asserts="4" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSClipViewTests" executed="True" result="Success" success="True" time="0.006" asserts="4">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSClipViewTests.NSClipViewConstrainBoundsRect" executed="True" result="Success" success="True" time="0.006" asserts="4" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSColorTests" executed="True" result="Success" success="True" time="0.003" asserts="6">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSColorTests.NSColor_ComponentTests" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+          <test-case name="Xamarin.Mac.Tests.NSColorTests.SingleComponents" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSControlTests" executed="True" result="Success" success="True" time="0.007" asserts="9">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSControlTests.NSControlShouldAddMultipleActivatedEventHandlers" executed="True" result="Success" success="True" time="0.004" asserts="2" />
+          <test-case name="Xamarin.Mac.Tests.NSControlTests.NSControlShouldChangeControlSize" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+          <test-case name="Xamarin.Mac.Tests.NSControlTests.NSControlShouldChangeHighlighted" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSControlTests.NSControlShouldChangeLineBreakMode" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+          <test-case name="Xamarin.Mac.Tests.NSControlTests.NSControlShouldRemoveAndAddActivatedEventHandlers" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSDraggingItemTests" executed="True" result="Success" success="True" time="0.002" asserts="0">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSDraggingItemTests.NSDraggingItemConstructorTests" executed="True" result="Success" success="True" time="0.002" asserts="0" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSFontTests" executed="True" result="Success" success="True" time="0.006" asserts="4">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSFontTests.GetBoundingRect_SmokeTest" executed="True" result="Success" success="True" time="0.005" asserts="2" />
+          <test-case name="Xamarin.Mac.Tests.NSFontTests.GetBoundingRect_WithEmptyGlyphs" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSGradientTests" executed="True" result="Success" success="True" time="0.007" asserts="15">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSGradientTests.NSGradientConstructorTests" executed="True" result="Success" success="True" time="0.007" asserts="15" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSImageTests" executed="True" result="Success" success="True" time="0.007" asserts="8">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSImageTests.ImageWithSize" executed="True" result="Success" success="True" time="0.005" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSImageTests.NSImageCapInsets" executed="True" result="Success" success="True" time="0.001" asserts="5" />
+          <test-case name="Xamarin.Mac.Tests.NSImageTests.NSImageResizingModeShouldChange" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSIndexSetTests" executed="True" result="Success" success="True" time="0.005" asserts="0">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSIndexSetTests.NSIndexSet_ConstructorTest" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+          <test-case name="Xamarin.Mac.Tests.NSIndexSetTests.NSIndexSet_EmptyToArray" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+          <test-case name="Xamarin.Mac.Tests.NSIndexSetTests.NSIndexSet_EmptyToList" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSLayoutConstraintTest" executed="True" result="Success" success="True" time="0.011" asserts="8">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSLayoutConstraintTest.FromVisualFormat" executed="True" result="Success" success="True" time="0.011" asserts="8" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSLayoutManagerTests" executed="True" result="Success" success="True" time="0.024" asserts="2">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSLayoutManagerTests.NSLayoutManager_CharacterRangeForGlyphRange" executed="True" result="Success" success="True" time="0.019" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSLayoutManagerTests.NSLayoutManager_DrawBackgroundForGlyphRange" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+          <test-case name="Xamarin.Mac.Tests.NSLayoutManagerTests.NSLayoutManager_DrawGlyphsForGlyphRange" executed="True" result="Success" success="True" time="0.002" asserts="0" />
+          <test-case name="Xamarin.Mac.Tests.NSLayoutManagerTests.NSLayoutManager_GlyphRangeForCharacterRange" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSMetadataItemTest" executed="False" result="Ignored">
+        <reason>
+          <message><![CDATA[One or more child tests were ignored]]></message>
+        </reason>
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSMetadataItemTest.CtorUrl" executed="False" result="Ignored">
+            <properties>
+              <property name="_SKIPREASON" value="Fails on bots, disabled until investigated" />
+            </properties>
+            <reason>
+              <message><![CDATA[Fails on bots, disabled until investigated]]></message>
+            </reason>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSObjectTests" executed="True" result="Success" success="True" time="1.008" asserts="0">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSObjectTests.NSObjectTests_InvokeTest" executed="True" result="Success" success="True" time="1.008" asserts="0" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSOutlineViewTests" executed="True" result="Success" success="True" time="0.002" asserts="0">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSOutlineViewTests.NSOutlineView_DelegateDataSourceNull" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+          <test-case name="Xamarin.Mac.Tests.NSOutlineViewTests.NSOutlineView_InsertNull" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSPasteboardTests" executed="True" result="Success" success="True" time="0.007" asserts="0">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSPasteboardTests.NSPasteboardTests_WriteObjectTests" executed="True" result="Success" success="True" time="0.006" asserts="0" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSPathControlItemTests" executed="True" result="Success" success="True" time="0.004" asserts="4">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSPathControlItemTests.NSPathControlItemShouldSetAttributedTitle" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSPathControlItemTests.NSPathControlItemShouldSetImage" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+          <test-case name="Xamarin.Mac.Tests.NSPathControlItemTests.NSPathControlItemShouldSetTitle" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSPathControlTests" executed="True" result="Success" success="True" time="0.005" asserts="5">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSPathControlTests.NSPathControlShouldSetAllowedTypes" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSPathControlTests.NSPathControlShouldSetEditable" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSPathControlTests.NSPathControlShouldSetPathItems" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSPathControlTests.NSPathControlShouldSetPlaceholderAttributedString" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSPathControlTests.NSPathControlShouldSetPlaceholderString" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSSearchFieldTests" executed="True" result="Success" success="True" time="0.004" asserts="4">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSSearchFieldTests.NSSearchFieldShouldSetMaximumRecents" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSSearchFieldTests.NSSearchFieldShouldSetSearchMenuTemplate" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSSearchFieldTests.NSSearchFieldShouldSetSendsSearchStringImmediately" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSSearchFieldTests.NSSearchFieldShouldSetSendsWholeSearchString" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSSliderTests" executed="True" result="Success" success="True" time="0.011" asserts="1">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSSliderTests.NSSlider_VertialTests" executed="True" result="Success" success="True" time="0.011" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSSplitViewControllerTests" executed="True" result="Success" success="True" time="0.013" asserts="8">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSSplitViewControllerTests.NSSplitViewControllerShouldAddSplitViewItem" executed="True" result="Success" success="True" time="0.007" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSSplitViewControllerTests.NSSplitViewControllerShouldChangeSplitView" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSSplitViewControllerTests.NSSplitViewControllerShouldChangeSplitViewItems" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSSplitViewControllerTests.NSSplitViewControllerShouldGetSplitViewItem" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSSplitViewControllerTests.NSSplitViewControllerShouldInsertSplitViewItem" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+          <test-case name="Xamarin.Mac.Tests.NSSplitViewControllerTests.NSSplitViewControllerShouldRemoveSplitViewItem" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSSplitViewItemTests" executed="True" result="Success" success="True" time="0.004" asserts="6">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSSplitViewItemTests.NSSplitViewItemShouldChangeCanCollapse" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSSplitViewItemTests.NSSplitViewItemShouldChangeCollapsed" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSSplitViewItemTests.NSSplitViewItemShouldChangeHoldingPriority" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSSplitViewItemTests.NSSplitViewItemShouldChangeViewController" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSSplitViewItemTests.NSSplitViewItemShouldCreateFromViewController" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSStackViewTests" executed="True" result="Success" success="True" time="0.016" asserts="22">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSStackViewTests.NSStackViewShouldAddView" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSStackViewTests.NSStackViewShouldChangeAlignment" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSStackViewTests.NSStackViewShouldChangeClippingResistance" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSStackViewTests.NSStackViewShouldChangeCustomSpacing" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSStackViewTests.NSStackViewShouldChangeEdgeInsets" executed="True" result="Success" success="True" time="0.001" asserts="4" />
+          <test-case name="Xamarin.Mac.Tests.NSStackViewTests.NSStackViewShouldChangeHasEqualSpacing" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSStackViewTests.NSStackViewShouldChangeHuggingPriority" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSStackViewTests.NSStackViewShouldChangeOrientation" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSStackViewTests.NSStackViewShouldChangeSpacing" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSStackViewTests.NSStackViewShouldChangeVisibilityPriority" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSStackViewTests.NSStackViewShouldCreateWithEmptyConstructor" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSStackViewTests.NSStackViewShouldCreateWithViews" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+          <test-case name="Xamarin.Mac.Tests.NSStackViewTests.NSStackViewShouldInsertView" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+          <test-case name="Xamarin.Mac.Tests.NSStackViewTests.NSStackViewShouldRemoveView" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSStackViewTests.NSStackViewShouldSetViews" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSStoryboardSegueTests" executed="True" result="Success" success="True" time="0.004" asserts="6">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSStoryboardSegueTests.NSStoryboardSegueShouldCreateSegueWithConstructor" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSStoryboardSegueTests.NSStoryboardSegueShouldGetDestinationController" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+          <test-case name="Xamarin.Mac.Tests.NSStoryboardSegueTests.NSStoryboardSegueShouldGetIdentifier" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSStoryboardSegueTests.NSStoryboardSegueShouldGetSourceController" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSStringTests" executed="True" result="Success" success="True" time="0.006" asserts="9">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSStringTests.NSString_BoundingRectWithSize" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+          <test-case name="Xamarin.Mac.Tests.NSStringTests.NSString_CompareTo" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+          <test-case name="Xamarin.Mac.Tests.NSStringTests.NSString_GetLineStart" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+          <test-case name="Xamarin.Mac.Tests.NSStringTests.NSString_LineRangeForRange" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSTableColumnTests" executed="True" result="Success" success="True" time="0.003" asserts="1">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSTableColumnTests.NSTableColumnShouldChangeTitle" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSTableRowViewTests" executed="True" result="Success" success="True" time="0.01" asserts="2">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSTableRowViewTests.NSTableRowViewShouldChangeNextRowSelected" executed="True" result="Success" success="True" time="0.009" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSTableRowViewTests.NSTableRowViewShouldChangePreviousRowSelected" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSTableViewTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSTableViewTests.NSTableView_DelegateDataSourceNull" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSTabViewControllerTests" executed="True" result="Success" success="True" time="0.022" asserts="11">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSTabViewControllerTests.NSTabViewControllerShouldAddTabViewItem" executed="True" result="Success" success="True" time="0.007" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSTabViewControllerTests.NSTabViewControllerShouldChangeCanPropagateSelectedChildViewControllerTitle" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSTabViewControllerTests.NSTabViewControllerShouldChangeSegmentedControl" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+          <test-case name="Xamarin.Mac.Tests.NSTabViewControllerTests.NSTabViewControllerShouldChangeSelectedTabViewItemIndex" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSTabViewControllerTests.NSTabViewControllerShouldChangeTabStyle" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSTabViewControllerTests.NSTabViewControllerShouldChangeTabViewItems" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSTabViewControllerTests.NSTabViewControllerShouldChangeTransitionOptions" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSTabViewControllerTests.NSTabViewControllerShouldGetTabViewItem" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSTabViewControllerTests.NSTabViewControllerShouldInsertTabViewItem" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+          <test-case name="Xamarin.Mac.Tests.NSTabViewControllerTests.NSTabViewControllerShouldRemoveTabViewItem" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSTabViewItemTests" executed="True" result="Success" success="True" time="0.002" asserts="2">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSTabViewItemTests.NSTabViewItemShouldChangeImage" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSTabViewItemTests.NSTabViewItemShouldChangeViewController" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSTextFieldTests" executed="True" result="Success" success="True" time="0.002" asserts="2">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSTextFieldTests.NSTextFieldShouldChangePlaceholderAttributedString" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSTextFieldTests.NSTextFieldShouldChangePlaceholderString" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSTextFinderTests" executed="True" result="Success" success="True" time="0.004" asserts="1">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSTextFinderTests.NSTextFinderConstructor" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSTextViewTests" executed="True" result="Success" success="True" time="0.001" asserts="1">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSTextViewTests.NSTextViewShouldChangeUsesRolloverButtonForSelection" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSThreadTests" executed="True" result="Success" success="True" time="0.003" asserts="2">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSThreadTests.NSThread_CallStack_Test" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSToolbarItemTests" executed="True" result="Success" success="True" time="0.003" asserts="5">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSToolbarItemTests.InitTests" executed="True" result="Success" success="True" time="0.003" asserts="5" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSToolbarTests" executed="True" result="Success" success="True" time="0.004" asserts="1">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSToolbarTests.NSToolbarShouldChangeAllowsExtensionItems" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSUserDefaultsControllerTests" executed="True" result="Success" success="True" time="0.008" asserts="10">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSUserDefaultsControllerTests.NSUserDefaultsControllerShouldChangeAppliesImmediately" executed="True" result="Success" success="True" time="0.005" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSUserDefaultsControllerTests.NSUserDefaultsControllerShouldChangeInitialValues" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSUserDefaultsControllerTests.NSUserDefaultsControllerShouldCreateNewControllerWithDefaultConstructor" executed="True" result="Success" success="True" time="0" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSUserDefaultsControllerTests.NSUserDefaultsControllerShouldCreateNewControllerWithNullParameters" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+          <test-case name="Xamarin.Mac.Tests.NSUserDefaultsControllerTests.NSUserDefaultsControllerShouldCreateNewControllerWithParameters" executed="True" result="Success" success="True" time="0" asserts="3" />
+          <test-case name="Xamarin.Mac.Tests.NSUserDefaultsControllerTests.NSUserDefaultsControllerShouldGetSharedController" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSViewControllerTests" executed="True" result="Success" success="True" time="0.003" asserts="6">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSViewControllerTests.NSViewControllerShouldAddChildViewController" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSViewControllerTests.NSViewControllerShouldInsertChildViewController" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+          <test-case name="Xamarin.Mac.Tests.NSViewControllerTests.NSViewControllerShouldRemoveChildViewController" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSViewTests" executed="True" result="Success" success="True" time="0.084" asserts="15">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSViewTests.AllItemsWithNSMenuShouldAllowNull" executed="True" result="Success" success="True" time="0.07" asserts="0" />
+          <test-case name="Xamarin.Mac.Tests.NSViewTests.NSViewShouldAddGestureRecognizer" executed="True" result="Success" success="True" time="0.006" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSViewTests.NSViewShouldChangeGestureRecognizers" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSViewTests.NSViewShouldRemoveGestureRecognizer" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+          <test-case name="Xamarin.Mac.Tests.NSViewTests.SubviewSort" executed="True" result="Success" success="True" time="0.005" asserts="11" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSVisualEffectViewTests" executed="True" result="Success" success="True" time="0.009" asserts="4">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSVisualEffectViewTests.NSVisualEffectViewShouldChangeBlendingMode" executed="True" result="Success" success="True" time="0.006" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSVisualEffectViewTests.NSVisualEffectViewShouldChangeMaskImage" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSVisualEffectViewTests.NSVisualEffectViewShouldChangeMaterial" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.NSVisualEffectViewTests.NSVisualEffectViewShouldChangeState" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSWindowControllerTests" executed="True" result="Success" success="True" time="0.003" asserts="0">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSWindowControllerTests.NSWindowController_ShowWindowTest" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.NSWorkspaceTests" executed="True" result="Success" success="True" time="0.008" asserts="165">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.NSWorkspaceTests.HfsTypeCode4CCTest" executed="True" result="Success" success="True" time="0.006" asserts="161" />
+          <test-case name="Xamarin.Mac.Tests.NSWorkspaceTests.NSWorkspaceConstantTests" executed="True" result="Success" success="True" time="0.002" asserts="4" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.SceneKitTests" executed="True" result="Success" success="True" time="0.003" asserts="3">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.SceneKitTests.SCNGeometrySourceSemantic_ColorKeyTest" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.SceneKitTests.SCNPhysicsTestKeys_SearchModeKeyTest" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.SceneKitTests.SCNSceneSourceLoading_AnimationImportPolicyKeyTest" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.SCNGeometrySourceTests" executed="True" result="Success" success="True" time="0.006" asserts="1">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.SCNGeometrySourceTests.SCNGeometrySource_BoneStringTests" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+          <test-case name="Xamarin.Mac.Tests.SCNGeometrySourceTests.SCNGeometrySource_FromDataTest" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+          <test-case name="Xamarin.Mac.Tests.SCNGeometrySourceTests.SCNGeometrySourceSemanticTest" executed="True" result="Success" success="True" time="0" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.SCNMaterialTests" executed="True" result="Success" success="True" time="0.007" asserts="0">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.SCNMaterialTests.SCNMaterial_ShaderModifierTest" executed="True" result="Success" success="True" time="0.006" asserts="0" />
+          <test-case name="Xamarin.Mac.Tests.SCNMaterialTests.SCNMaterial_ShaderModifierTest_Weak" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.SCNNodeTests" executed="True" result="Success" success="True" time="0.025" asserts="3">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.SCNNodeTests.SCNNode_AddAnimation" executed="True" result="Success" success="True" time="0.013" asserts="3" />
+          <test-case name="Xamarin.Mac.Tests.SCNNodeTests.SCNNode_GeometryNullTest" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+          <test-case name="Xamarin.Mac.Tests.SCNNodeTests.SCNNode_SetPhysicsBodyTest" executed="True" result="Success" success="True" time="0.011" asserts="0" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.SCNSceneTests" executed="True" result="Success" success="True" time="0.003" asserts="8">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.SCNSceneTests.SCNSceneLoadingOptions_AnimationImportPolicyTest" executed="True" result="Success" success="True" time="0.002" asserts="4" />
+          <test-case name="Xamarin.Mac.Tests.SCNSceneTests.SCNSceneLoadingOptions_AnimationImportPolicyTestKeysNonNull" executed="True" result="Success" success="True" time="0.001" asserts="4" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.SCNViewTests" executed="True" result="Success" success="True" time="0.023" asserts="0">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.SCNViewTests.SCNView_TechniqueSetterTest" executed="True" result="Success" success="True" time="0.023" asserts="0" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.SCNWorldTests" executed="True" result="Success" success="True" time="0.001" asserts="1">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.SCNWorldTests.SCNNode_BackfaceCulling" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.SimpleRegistrarTest" executed="True" result="Success" success="True" time="0.002" asserts="2">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.SimpleRegistrarTest.SimpleRegistrar_XamarinMacRegistered" executed="True" result="Success" success="True" time="0" asserts="0" />
+          <test-case name="Xamarin.Mac.Tests.SimpleRegistrarTest.SimpleRegistrarSmokeTest" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.SKPaymentTests" executed="True" result="Success" success="True" time="0.004" asserts="1">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.SKPaymentTests.SKPayment_PaymentWithProduct" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Xamarin.Mac.Tests.SKSceneTests" executed="True" result="Success" success="True" time="0.004" asserts="2">
+        <results>
+          <test-case name="Xamarin.Mac.Tests.SKSceneTests.SKScene_InitWithSize" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+          <test-case name="Xamarin.Mac.Tests.SKSceneTests.SKScene_InitWithSizeSuper" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="XamarinTests.ObjCRuntime.RegistrarSharedTest" executed="True" result="Success" success="True" time="0.011" asserts="5">
+        <results>
+          <test-case name="XamarinTests.ObjCRuntime.RegistrarSharedTest.IntPtrCtor" executed="True" result="Success" success="True" time="0.011" asserts="5" />
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
